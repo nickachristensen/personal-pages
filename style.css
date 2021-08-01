@@ -1,3 +1,44 @@
 body {
-    background: blue;
+    background: blanchedalmond;
+    height: 100%;
+    width: 100%;
+    margin: 0;
 }
+
+h1, nav {
+    display: block;
+    margin: center;
+    text-align: center;
+}
+
+span {
+    color:blanchedalmond;
+    background: black;
+    padding: 5px 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+    padding-left: 10px;
+}
+
+div {
+    text-align: center;
+}
+
+.Typingcat {
+    height:425px;
+    width:510px;
+    background: url('./Cattyping1.jpg');
+    margin:auto; /*position the [div] on the center*/
+  }
+
+  .Typingcat:hover {
+    cursor:pointer; 
+    background:url('./Cattyping2.gif');
+  }
+
